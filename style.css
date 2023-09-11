@@ -23,10 +23,15 @@ a{
 
 header a{
     font-size: 2rem;
+    
+}
+
+.titulo-principal{
+    z-index: -1;
 }
 
 header{
-    height: 90px;
+    height: 150px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -34,5 +39,17 @@ header{
 }
 
 main{
+    flex-direction: column;
+    flex-grow: 1;
+    
+}
 
+footer{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 15px;
+    font-style: italic;
 }
