@@ -8,10 +8,6 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    background-image: url(./img/foto\ preincipal.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
     display: flex;
     flex-direction: column;
 }
@@ -21,13 +17,13 @@ a{
     color: inherit;
 }
 
-header a{
-    font-size: 2rem;
-    
+header a:hover{
+    border-bottom: 3px solid ;
+    color: rgb(132, 66, 238);
 }
 
-.titulo-principal{
-    z-index: -1;
+header a{
+    font-size: 1.8rem;
 }
 
 header{
@@ -39,17 +35,31 @@ header{
 }
 
 main{
-    flex-direction: column;
+    display: flex;
     flex-grow: 1;
-    
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(./img/background-img.png);
+    padding: 100px 0px 37px 40px ;
+    margin-right: 100px;
 }
 
+.sinopse p{
+    font-style: inherit;
+    font-size: 1.8rem;
+    width: 700px;
+}
+
+/*.social-conteiner{
+    color: black;
+    gap: 40px;
+    height: 60px;
+    width: 236px;
+}*/
+
 footer{
-    height: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: antiquewhite;
+    height: 20px;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     font-style: italic;
 }
