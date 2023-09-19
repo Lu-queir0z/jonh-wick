@@ -12,6 +12,14 @@ body{
     flex-direction: column;
 }
 
+header{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -26,22 +34,14 @@ header a{
     font-size: 1.8rem;
 }
 
-header{
-    height: 150px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 main{
     display: flex;
     flex-grow: 1;
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(./img/background-img.png);
-    padding: 100px 0px 37px 40px ;
-    margin-right: 100px;
+    padding: 100px 0px 37px 100px ;
+    margin-right: 50px;
 }
 
 .sinopse p{
@@ -50,14 +50,21 @@ main{
     width: 700px;
 }
 
-/*.social-conteiner{
-    color: black;
-    gap: 40px;
-    height: 60px;
-    width: 236px;
-}*/
+.social-conteiner{
+    color: rgb(0, 0, 0);
+    gap: 42px;
+    font-size: 42px;
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+}
 
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 20px;
     color: rgb(0, 0, 0);
     font-size: 15px;
