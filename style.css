@@ -57,7 +57,6 @@ main{
     width: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: end;
 }
 
@@ -69,4 +68,30 @@ footer{
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-style: italic;
+}
+
+/*config pra tablet */
+@media (max-width:768px){
+body{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    }
+
+header a{
+    display: none;
+}
+    
+main{
+    background-size:cover ;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+main :not(.sinopse p){
+    display: none;
+        }
+    
+.footer{
+        display: none;
+    }
 }
