@@ -49,22 +49,21 @@ main{
     margin-right: 50px;
 }
 
-.sinopse p{
+main .sinopse p{
     font-style: inherit;
     font-size: 1.8rem;
     width: 700px;
     height: 100px;
 }
 
-.social-conteiner{
+main .social-conteiner{
     color: rgb(0, 0, 0);
     gap: 42px;
     font-size: 42px;
     width: 40px;
-    padding-right: 50000px;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-end;
 }
 
@@ -76,11 +75,8 @@ footer{
     font-size: 15px;
     font-style: italic;
 }
-@media (max-width:768px){
 
-body{
-    display: flex;
-}
+@media (max-width:768px){
 
 header {
     background-image: url(./img/titulo-principal.png);
@@ -111,5 +107,18 @@ main img{
 
 footer{
     display: none;
+}
+main{
+    background-size:cover ;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+main :not(.sinopse p){
+    display: none;
+        }
+    
+.footer{
+        display: none;
     }
 }
