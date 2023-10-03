@@ -1,0 +1,47 @@
+
+@media (max-width:768px){
+
+    header {
+        background-image: url(./img/titulo-principal.png);
+        background-repeat: no-repeat;
+        padding: 20px 20px 20px 20px ;
+    }
+    
+    header a{
+        display: none;
+    }
+    
+    header img{
+        display: none;
+    }
+    
+    main img{
+        display: none;
+        }
+    
+    .titulo-sinopse{
+        display: none;
+        
+        }
+    
+    .sinopse p{
+        display: none;
+        }
+    
+    footer{
+        display: none;
+    }
+    main{
+        background-size:cover ;
+        border-radius: 50px;
+        justify-content: center;
+    }
+    
+    main :not(.sinopse p){
+        display: none;
+            }
+        
+    .footer{
+            display: none;
+        }
+    }
