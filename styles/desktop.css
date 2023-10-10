@@ -7,14 +7,13 @@ body{
     flex-direction: column;
     overflow: hidden;
     background-position: right;
-    background-image: url(../img/background-img.png);
+    background-image: url(../img/john_wick_4-foto\ de\ fundo.jpg);
     background-repeat: no-repeat;
-
 }
 
 header{
     height: 150px;
-    background-color: white;
+    background-color: ;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -48,16 +47,17 @@ main .sinopse p{
     height: 100px;
 }
 
-main .social-conteiner{
-    color: rgb(0, 0, 0);
-    gap: 42px;
-    font-size: 42px;
+.social-conteiner{
     width: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: flex-start;
+    color: black;
+    font-size: 32px;
+    gap: 32px;
 }
+
 footer{
     position: absolute;
     bottom: 0;
