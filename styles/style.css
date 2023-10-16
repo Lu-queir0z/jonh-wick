@@ -3,3 +3,10 @@ html{
     overflow: hidden;
 }
 
+.sinopse-linha{
+    width: 700px;
+    border-bottom: 5px solid rgb(76, 7, 155);
+    opacity: 0.7;
+    display: flex;
+    
+}

@@ -6,14 +6,10 @@ body{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    background-position: right;
-    background-image: url(../img/john_wick_4-foto\ de\ fundo.jpg);
-    background-repeat: no-repeat;
 }
 
 header{
     height: 150px;
-    background-color: ;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,27 +31,38 @@ header a{
 
 main{
     display: flex;
+    flex-direction: row-reverse;
+    gap: 730px;
     padding: 100px 0px 37px 100px ;
-    margin-right: 50px;
 }
 
-main .sinopse p{
-    position: absolute;
+.sinopse {
     font-style: inherit;
     font-size: 1.8rem;
     width: 700px;
-    height: 100px;
+}
+
+.imagem-fundo{
+    position: absolute;
+    right: 0;
+    top: 170px;
+    z-index: -1;
+}
+
+.trailers{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding:250px 67px 0 0  ;
 }
 
 .social-conteiner{
-    width: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    color: black;
-    font-size: 32px;
-    gap: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 0 100px 100px;
+    width: 50px;
+    font-size: 50px;
 }
 
 footer{
@@ -66,4 +73,5 @@ footer{
     height: 20px;
     font-size: 15px;
     font-style: italic;
+    z-index: 1;
 }
