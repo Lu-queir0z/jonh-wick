@@ -1,47 +1,36 @@
 
 @media (max-width:768px){
 
-    header {
-        background-image: url(./img/titulo-principal.png);
-        background-repeat: no-repeat;
-        padding: 20px 20px 20px 20px ;
-    }
-    
-    header a{
-        display: none;
-    }
-    
-    header img{
-        display: none;
-    }
-    
-    main img{
-        display: none;
-        }
-    
-    .titulo-sinopse{
-        display: none;
-        
-        }
-    
-    .sinopse p{
-        display: none;
-        }
-    
-    footer{
-        display: none;
-    }
-    main{
-        background-size:cover ;
-        border-radius: 50px;
-        justify-content: center;
-    }
-    
-    main :not(.sinopse p){
-        display: none;
-            }
-        
-    .footer{
-            display: none;
-        }
-    }
+header {
+    background-image: url(../img/img-titulo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header img{
+    display: none;
+}
+
+header a{
+    padding-top: 200px ;
+}
+
+header a:hover{
+    display: none;
+}
+
+main{
+
+}
+
+.sinopse p{
+    text-align: center;
+}
+
+
+
+footer{
+    display: none;
+}
+}
