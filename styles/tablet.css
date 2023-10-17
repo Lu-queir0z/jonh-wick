@@ -20,14 +20,23 @@ header a:hover{
     display: none;
 }
 
-main{
-
+.trailers img{
+    width: 269px;
+    height: 151px ;
+    
 }
 
 .sinopse p{
     text-align: center;
+    with: 33px;
 }
 
+.sinopse-linha{
+    display: none;
+}
+
+.social-conteiner{
+    display: none;
 
 
 footer{

@@ -3,9 +3,9 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
+    padding-left: 150px ;
 }
 
 header{
@@ -29,39 +29,50 @@ header a{
     font-size: 1.8rem;
 }
 
-main{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 730px;
-    padding: 100px 0px 37px 100px ;
-}
-
-.sinopse {
-    font-style: inherit;
-    font-size: 1.8rem;
-    width: 700px;
-}
-
 .imagem-fundo{
+    width: 715px;
+    height: 760px;
     position: absolute;
     right: 0;
     top: 170px;
     z-index: -1;
 }
 
+main{/*
+    display: flex;
+    align-items: start;
+    justify-content: center ;
+    flex-direction: column;
+}
+*/
+
+.sinopse {
+    padding-top:100px ;
+    font-size: 1.8rem;
+    width: 700px;
+}
+
 .trailers{
+    background-color: orange;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
     gap: 55px;
-    padding:250px 67px 0 0  ;
+    width: 321px;
+
+}
+
+.trailers img{
+
 }
 
 .social-conteiner{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 0 0 100px 100px;
-    width: 50px;
+    display:flex ;
+    justify-content: flex-end;
+    align-items: center;
+    gap:40px ;
+    background-color: blue;
     font-size: 50px;
 }
 
