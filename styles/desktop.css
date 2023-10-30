@@ -38,13 +38,11 @@ header a{
     z-index: -1;
 }
 
-main{/*
+main{
     display: flex;
-    align-items: start;
-    justify-content: center ;
-    flex-direction: column;
+    flex-direction: row;
+    
 }
-*/
 
 .sinopse {
     padding-top:100px ;
@@ -55,16 +53,8 @@ main{/*
 .trailers{
     background-color: orange;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: end;
     gap: 55px;
-    width: 321px;
-
-}
-
-.trailers img{
-
+    flex-direction: column;
 }
 
 .social-conteiner{
