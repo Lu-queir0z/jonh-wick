@@ -41,17 +41,22 @@ header a{
 main{
     display: flex;
     flex-direction: row;
-    
 }
 
 .sinopse {
     padding-top:100px ;
+
+}
+
+.sinopse p{
     font-size: 1.8rem;
     width: 700px;
 }
 
 .trailers{
-    background-color: orange;
+    position: absolute;
+    right: 35px;
+    bottom: 50px;
     display: flex;
     gap: 55px;
     flex-direction: column;
