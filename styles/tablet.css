@@ -1,11 +1,20 @@
 
 @media (max-width:768px){
 
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/background-img\ tablet.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
 header {
     background-image: url(../img/img-titulo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
 }
 
 header img{
@@ -16,19 +25,28 @@ header a{
     padding-top: 200px ;
 }
 
-header a:hover{
+.imagem-fundo{
     display: none;
 }
 
 .trailers img{
     width: 269px;
     height: 151px ;
-    
 }
 
+.sinopse{
+    flex-direction: row-reverse;
+}
+
+.sinopse img{
+    display: none;
+}
 .sinopse p{
+    position: relative;
+    right: 10px;
     text-align: center;
-    with: 33px;
+    width: 200px;
+    font-style: italic;
 }
 
 .sinopse-linha{
@@ -38,7 +56,7 @@ header a:hover{
 .social-conteiner{
     display: none;
 
-
+}
 footer{
     display: none;
 }
