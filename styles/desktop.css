@@ -38,28 +38,28 @@ header a{
     z-index: -1;
 }
 
-main{
+main .sinopse {
     display: flex;
-    flex-direction: row;
-}
-
-.sinopse {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:start;
     padding-top:100px ;
-
 }
-
 .sinopse p{
     font-size: 1.8rem;
     width: 700px;
 }
 
-.trailers{
-    position: absolute;
-    right: 35px;
-    bottom: 50px;
+main .trailers{
     display: flex;
-    gap: 55px;
+    align-items: end;
+    
+    
+}
+.trailers{
+    display: flex;
     flex-direction: column;
+    gap: 55px;
 }
 
 .social-conteiner{

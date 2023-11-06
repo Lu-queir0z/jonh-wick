@@ -29,13 +29,20 @@ header a{
     display: none;
 }
 
+main {
+    flex-direction: row-reverse;
+}
+
+.conteudo-main{
+    display: flex;
+    flex-direction: row;
+}
+.trailers{
+    
+}
 .trailers img{
     width: 269px;
     height: 151px ;
-}
-
-.sinopse{
-    flex-direction: row-reverse;
 }
 
 .sinopse img{
