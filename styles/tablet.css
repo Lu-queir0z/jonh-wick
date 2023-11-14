@@ -14,7 +14,7 @@ header {
     background-image: url(../img/img-titulo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: 50% 0%;
 }
 
 header img{
@@ -28,9 +28,8 @@ header a{
 .imagem-fundo{
     display: none;
 }
-
 main {
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .conteudo-main{
@@ -38,7 +37,8 @@ main {
     flex-direction: row;
 }
 .trailers{
-    
+    left: 0;
+
 }
 .trailers img{
     width: 269px;
@@ -48,12 +48,13 @@ main {
 .sinopse img{
     display: none;
 }
+
 .sinopse p{
-    position: relative;
-    right: 10px;
+    padding: 0;
     text-align: center;
-    width: 200px;
-    font-style: italic;
+    width: 333px;
+    font-size: 26px;
+    font-weight: 300px;
 }
 
 .sinopse-linha{
@@ -63,8 +64,5 @@ main {
 .social-conteiner{
     display: none;
 
-}
-footer{
-    display: none;
 }
 }
