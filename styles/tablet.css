@@ -1,6 +1,6 @@
 
 @media (max-width:768px){
-/*
+
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -9,12 +9,12 @@ body{
     background-size: contain;
     background-position: bottom;
 }
-*/
+
 header {
     background-image: url(../img/img-titulo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: end ;
 }
 
 header img{
