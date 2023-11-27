@@ -12,6 +12,10 @@ body{
     margin: 0;
 }
 
+.imagem-fundo{
+    display: none;
+}
+
 header {
     background-image: url(../img/img-titulo.png);
     background-size: cover;
@@ -31,36 +35,38 @@ header a{
     font-size: 35px;
 }
 
-.imagem-fundo{
-    display: none;
-}
-main {
-    display: none;
-}
-
-.trailers{
-    left: 0;
-
-}
-.trailers img{
-    width: 269px;
-    height: 151px ;
-}
-
 .sinopse img{
     display: none;
 }
 
-.sinopse p{
-    padding: 0;
-    text-align: center;
-    width: 333px;
-    font-size: 26px;
-    font-weight: 300px;
-}
-
 .sinopse-linha{
     display: none;
+}
+
+/*main {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.texto{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-weight : 800;
+    font-size: 30px;
+    text-align: center;
+    width: 340px;
+}
+
+.trailers{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.trailers img{
+    width: 269px;
+    height: 151px ;
 }
 
 .social-conteiner{
