@@ -35,6 +35,14 @@ header a{
     font-size: 35px;
 }
 
+main {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 150px;
+    padding-right: 30px;
+}
+
 .sinopse img{
     display: none;
 }
@@ -43,15 +51,8 @@ header a{
     display: none;
 }
 
-/*main {
-    display: flex;
-    flex-direction: column;
-}*/
-
 .texto{
     display: flex;
-    align-items: end;
-    justify-content: end;
     font-weight : 800;
     font-size: 30px;
     text-align: center;
@@ -59,9 +60,8 @@ header a{
 }
 
 .trailers{
-    display: flex;
-    align-items: end;
-    justify-content: end;
+    margin-right: 400px;
+    margin-top: 180px;
 }
 
 .trailers img{
