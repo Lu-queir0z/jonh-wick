@@ -1,18 +1,52 @@
 
 @media (max-width:375px) {
     body{
-            background-image: url();
-        }
+            background-image: url(../img/d43c954290467e658283104a5b2cca1c\ 1.svg);
+            background-position: center;
+            background-size: cover;
+    } 
     header a{
-        display: none;
+        display: none ;
+    }
+    header {
+        background-image: url(../img/John-Wick-Transparent-Image\ 2.png);
+        background-position: center; 
+        height: 180px;
     }
     .texto{
         display: none;
     }
-    .social-conteiner{
-        display: block;
+
+
+    .sinopse a{
+        margin-top: 60px;
+        margin-right: 33px;
         display: flex;
-        gap: 35px;
-        background-color: #fff;
+        align-items:center ;
+        justify-content: center;
+        font-size: 1.4rem;
+        color: #FFF;
+        border-radius: 50px;
+        border:6px solid #22FFFE ;
+        background-color: #D022ff;
+        display: block;
+        outline: none;
+        width: 250px;
+        height: 65px;
+    }
+    main .assista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-conteiner{
+        font-size: 40px;
+        padding: 0px;
+        display: block;
+        display: flex ;
+        position: absolute;
+        bottom: 5%;
+        left: 23%;
     }
 }

@@ -54,7 +54,9 @@ main .trailers{
     display: flex;
     align-items: end;
 }
-
+.assista{
+    display: NONE;
+}
 .trailers{
     position: absolute;
     top: 430px; right: 65px;
