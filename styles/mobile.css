@@ -13,10 +13,23 @@
         background-position: center; 
         height: 180px;
     }
+    header i.fa-bars{
+        display: block;
+        margin-top: 230px;
+        margin-right: 300px;
+        }
+    
+    header.menu i.fa-bars{
+        display: none;
+        }
+    
+    header.menu i.fa-bars + .fa-times{
+        display: block;
+        }
+
     .texto{
         display: none;
     }
-
 
     .sinopse a{
         margin-top: 60px;

@@ -28,6 +28,12 @@ header a{
     font-size: 1.8rem;
 }
 
+header i.fas{
+    display: none;
+    color: #000000;
+    font-size: 35px;
+}
+
 .imagem-fundo{
     width: 715px;
     height: 760px;
