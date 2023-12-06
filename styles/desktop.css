@@ -7,7 +7,9 @@ body{
     overflow: hidden;
     padding-left: 150px ;
 }
-
+header .overlay{
+    display: none;
+}
 header{
     height: 150px;
     display: flex;

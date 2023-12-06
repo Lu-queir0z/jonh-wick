@@ -1,5 +1,3 @@
-'use scrict'
-
 const abrir =document.getElementById('abrir')
 const fechar =document.getElementById('fechar')
 
